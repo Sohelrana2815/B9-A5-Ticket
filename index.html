@@ -15,10 +15,10 @@
     <!--End daisy ui and tailwind cdn -->
   </head>
 
-  <body class="font-raleway lg:w-[1170px] m-auto">
+  <body class="font-raleway">
     <header>
       <!-- nav start -->
-      <nav class="mt-4">
+      <nav class="mt-4 lg:w-[1170px] m-auto">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -70,7 +70,7 @@
     </header>
     <main>
       <!-- banner-section start -->
-      <section>
+      <section class="lg:w-[1170px] m-auto">
         <div class="mt-12">
           <div
             class="lg:w-[1170px] lg:h-[550px] bg-no-repeat"
@@ -102,7 +102,7 @@
       <!-- banner-section end -->
 
       <!-- offers section start  -->
-      <section class="mt-44">
+      <section class="mt-44 lg:w-[1170px] m-auto">
         <div class="text-center">
           <p class="text-[#030712] font-bold text-4xl">Best offers for you</p>
         </div>
@@ -167,10 +167,11 @@
       </section>
       <!-- offers section end  -->
 
-      <!-- P.H Paribahan secion -->
-
-      <section class="mt-28">
-        <div class="bg-[#F7F8F8] border-[#1DD100] border-t-2 rounded-[88px]">
+      <!--start P.H Paribahan secion -->
+      <section class="mt-28 w-screen m-auto">
+        <div
+          class="bg-[#F7F8F8] border-[#1DD100] border-t-2 rounded-[88px] h-[2208px]"
+        >
           <!-- ph text -->
           <div class="text-center">
             <span>.</span>
@@ -180,6 +181,72 @@
               26TK Discount on each ticket up to 104TK. <br />
               (Max 2 transaction/ customer)
             </p>
+            <!-- end ph text -->
+            <!-- start green card section -->
+            <div
+              class="w-[1170px] bg-white h-auto mt-12 m-auto rounded-3xl py-6"
+            >
+              <div class="flex gap-3">
+                <img class="w-16 h-12 ml-8" src="images/bus-logo.png" alt="" />
+                <div class="text-start">
+                  <p class="font-extrabold text-3xl">Greenline Paribahan</p>
+                  <p class="font-normal text-gray-500 text-base mt-1">
+                    Coach-009-WEB ! AC_Business
+                  </p>
+                </div>
+                <button
+                  class="btn font-inter ml-60 bg-[#1DD10026] text-[#1DD100]"
+                >
+                  <img src="images/seat-green.png" alt="" />40 Seats left
+                </button>
+              </div>
+
+              <div class="flex justify-between items-center">
+                <!-- start greenline sec -->
+                <div
+                  class="w-[808px] h-[260px] bg-[#F7F8F8] ml-8 rounded-3xl mt-6"
+                >
+                  <div class="flex justify-between">
+                    <p class="m-4">Route</p>
+                    <p class="m-4">Dhaka - Sylhet</p>
+                  </div>
+                  <hr class="border-dashed w-[740px] m-auto mt-6" />
+                  <div class="flex justify-between">
+                    <p class="m-4 mt-4">Departure Time</p>
+                    <p class="m-4">9:00 PM</p>
+                  </div>
+                  <hr
+                    class="border-dashed w-[740px] m-auto mt-6 font-inter font-normal text-base"
+                  />
+                  <button class="btn mt-8 mr-16 p-4">
+                    Boarding Point - Laxmipur
+                  </button>
+                  <button class="btn mt-8 mr-16 p-4">
+                    Dropping Point - Bogura
+                  </button>
+                  <button class="btn mt-8 mr-16 p-4">
+                    Est. Time - 11 Hour
+                  </button>
+                </div>
+                <!-- end greenline sec -->
+                <!-- start price  sec-->
+                <div>
+                  <img
+                    class="ml-8 mb-5"
+                    src="tabler-icon-coin-taka-filled.svg"
+                    alt=""
+                  />
+                  <p class="text-[#030712] font-bold text-3xl mr-24">
+                    550 Taka <br />
+                    <span class="text-[#03071299] text-lg font-semibold"
+                      >Per Seat</span
+                    >
+                  </p>
+                </div>
+                <!-- end price sec -->
+              </div>
+            </div>
+            <!-- end green card section -->
           </div>
           <!-- ph text -->
         </div>
@@ -187,7 +254,7 @@
       <!--end P.H Paribahan secion -->
 
       <!-- Greenline Paribahan -->
-      <section></section>
+
       <!--End Greenline Paribahan -->
     </main>
     <footer></footer>
